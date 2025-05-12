@@ -63,11 +63,12 @@ main {
   background: #00112c;
 }
 
-.top button {
+button {
   padding: 20px 40px;
   font-size: 1.2rem;
   border-radius: 1em;
   color: #002152;
+  cursor: pointer;
 }
 
 .top-text {
@@ -122,4 +123,21 @@ main {
 
 .lower-mid > h3 {
   align-self: flex-end;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  padding: 100px;
+  width: fit-content;
+  margin: 50px auto;
+  border: 2px solid #fff;
+  border-radius: 5rem;
+}
+
+.bottom button {
+  background: #002152;
+  color: #fff;
+  border: 2px solid #fff;
 }
