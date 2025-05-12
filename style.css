@@ -40,6 +40,7 @@ header a {
 main {
   background: #002152;
   color: #fff;
+  padding: 0 0 100px 0;
 }
 
 .main-img-container {
@@ -131,7 +132,7 @@ button {
   gap: 50px;
   padding: 100px;
   width: fit-content;
-  margin: 50px auto;
+  margin: 100px auto 0 auto;
   border: 2px solid #fff;
   border-radius: 5rem;
 }
@@ -140,4 +141,13 @@ button {
   background: #002152;
   color: #fff;
   border: 2px solid #fff;
+}
+
+footer {
+  background: #0059de;
+  padding: 50px;
+}
+
+footer img {
+  vertical-align: bottom;
 }
