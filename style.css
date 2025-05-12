@@ -106,3 +106,20 @@ main {
 .upper-mid {
   padding: 50px;
 }
+
+.lower-mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 20%;
+  background: #00112c;
+}
+
+.lower-mid > p {
+  margin: 40px;
+  font-style: italic;
+}
+
+.lower-mid > h3 {
+  align-self: flex-end;
+}
